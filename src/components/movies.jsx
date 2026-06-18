@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import MoviesTable from './moviesTable';
 import ListGroup from "./common/listGroup";
 import Pagination from './common/pagination';
@@ -6,7 +7,6 @@ import { getMovies } from "../services/fakeMovieService";
 import { getGenres } from "../services/fakeGenreService";
 import { paginate } from '../utils/paginate';
 import _ from 'lodash';
-import { Link } from "react-router-dom";
 import SearchBox from "./common/searchBox";
 
 
