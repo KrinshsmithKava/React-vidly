@@ -1,6 +1,6 @@
 import http from './httpService';
 import config from '../config.json';
-import RegisterForm from './../components/registerForm';
+// import RegisterForm from './../components/registerForm';
 
 const apiEndpoint = config.apiUrl + '/users';
 
